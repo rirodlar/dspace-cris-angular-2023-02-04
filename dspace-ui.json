@@ -1,0 +1,15 @@
+{
+    "apps": [
+        {
+           "name": "dspace-ui",
+           "cwd": "/home/usuarioadm/dspace-7/angular/dspace-angular-dspace-cris-2023.02.04",
+           "script": "dist/server/main.js",
+           "instances": "max",
+           "exec_mode": "cluster",
+           "env": {
+              "NODE_ENV": "production"
+           }
+        }
+    ]
+}
+
