@@ -7,15 +7,28 @@
            [attr.alt]="'menu.header.image.logo' | translate" />
     </a>
 
-    <div id="collapsingNav" class="w-100 h-100">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0 h-100">
+    <div id="collapsingNav" class="w-100">
+
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 h-50" style="float:right">
+        <li>
+          <a  class="nav-item nav-link" href="#">Ques Sic</a>
+        </li>
+        <li><a class="nav-item nav-link" href="#">Estadisticas</a></li>
+        <li><a class="nav-item nav-link" href="#">Guia Usurio</a></li>
+      </ul>
+    <br style="clear:both;"/>
+      <div style="background: #00a499">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 h-50">
+
         <li *ngIf="(isXsOrSm$ | async) && (isAuthenticated$ | async)">
             <ds-user-menu [inExpandableNavbar]="true"></ds-user-menu>
         </li>
         <li *ngFor="let section of (sections | async)">
+
           <ng-container *ngComponentOutlet="(sectionMap$ | async).get(section.id)?.component; injector: (sectionMap$ | async).get(section.id)?.injector;"></ng-container>
         </li>
       </ul>
+      </div>
     </div>
     <div class="navbar-buttons d-flex align-items-center gapx-1">
       <ds-themed-search-navbar class="navbar-collapsed"></ds-themed-search-navbar>
