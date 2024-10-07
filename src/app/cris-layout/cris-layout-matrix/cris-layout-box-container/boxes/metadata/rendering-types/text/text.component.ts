@@ -15,4 +15,7 @@ import { RenderingTypeValueModelComponent } from '../rendering-type-value.model'
 @MetadataBoxFieldRendering(FieldRenderingType.TEXT)
 export class TextComponent extends RenderingTypeValueModelComponent {
 
+  isUrl(value: string) {
+    return value.indexOf("http") == 0;
+  }
 }
