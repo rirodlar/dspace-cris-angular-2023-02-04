@@ -21,8 +21,13 @@
             <tbody>
             <ng-container *ngFor="let mdEntry of (metadata$ | async) | keyvalue">
               <tr *ngFor="let mdValue of mdEntry.value | slice:0:(metadataMapLimit$ | async).get(mdEntry.key)">
-                <td>{{mdEntry.key}}</td>
-                <td>{{mdValue.value}}</td>
+               <td>{{mdEntry.key}}</td>
+               <td *ngIf="isUrl(mdValue)">
+                 <a target="_blank" href="{{mdValue.value}}">{{mdValue.value}}</a>
+               </td>
+                <td *ngIf="!isUrl(mdValue)">
+                 {{mdValue.value}}
+                </td>
                 <td>{{mdValue.language}}</td>
               </tr>
               <tr *ngIf="mdEntry.value.length > (metadataMapLimit$ | async).get(mdEntry.key)">
@@ -51,3 +56,6 @@
   <ds-error *ngIf="itemRD?.hasFailed" message="{{'error.item' | translate}}"></ds-error>
   <ds-themed-loading *ngIf="itemRD?.isLoading" message="{{'loading.item' | translate}}"></ds-themed-loading>
 </div>
+<ng-template #normal>
+  Please friend, login.
+</ng-template>

@@ -106,4 +106,10 @@ export class FullItemPageComponent extends ItemPageComponent implements OnInit, 
     this.metadataMapLimit$.next(metadataMapLimit);
   }
 
+
+
+  isUrl(mdValue: any) {
+       return mdValue && mdValue.value.indexOf("http") == 0 ;
+  }
+
 }
