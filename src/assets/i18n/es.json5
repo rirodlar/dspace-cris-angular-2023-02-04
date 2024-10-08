@@ -10209,7 +10209,8 @@
   // "submission.sections.submit.progressbar.describe.publication_bibliographic_details": "Publication bibliographic details",
   // TODO New key - Add a translation
   "submission.sections.submit.progressbar.describe.publication_bibliographic_details": "Publication bibliographic details",
- // "submission.sections.submit.progressbar.describe.publication_complementary": "Información complementaria",
+
+  "submission.sections.submit.progressbar.describe.publication_complementary": "Información complementaria",
 
 
 

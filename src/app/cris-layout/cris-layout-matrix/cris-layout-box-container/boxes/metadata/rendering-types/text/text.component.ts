@@ -16,7 +16,6 @@ import { RenderingTypeValueModelComponent } from '../rendering-type-value.model'
 export class TextComponent extends RenderingTypeValueModelComponent {
 
   isUrl(value: string) {
-    console.log("isURL :"+ value);
     return value.indexOf("http") == 0;
   }
 }
