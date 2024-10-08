@@ -1,41 +1,83 @@
-<nav [ngClass]="{'open': !(menuCollapsed | async)}" [@slideMobileNav]="!(windowService.isXsOrSm() | async) ? 'default' : ((menuCollapsed | async) ? 'collapsed' : 'expanded')"
-  class="navbar navbar-expand-md navbar-light p-0 navbar-container" role="navigation" [attr.aria-label]="'nav.main.description' | translate">
-  <div class="navbar-inner-container w-100 h-100" [class.container]="!(isXsOrSm$ | async)">
-    <a class="navbar-brand my-2" routerLink="/home">
-      <img src="https://guiaweb.usach.cl/sites/default/files/logo-usach-transparente.png"
-           style="height: 70px !important;max-height: 70px !important;"
-           [attr.alt]="'menu.header.image.logo' | translate" />
-    </a>
-
-    <div id="collapsingNav" class="w-100">
-
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0 h-50" style="float:right">
-        <li>
-          <a  class="nav-item nav-link" href="#">Qué es Sic</a>
-        </li>
-        <li><a class="nav-item nav-link" href="#">Estadísticas</a></li>
-        <li><a class="nav-item nav-link" href="#">Guia Usuario</a></li>
-      </ul>
-    <br style="clear:both;"/>
-      <div style="background: #00a499">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0 h-50">
-
-        <li *ngIf="(isXsOrSm$ | async) && (isAuthenticated$ | async)">
-            <ds-user-menu [inExpandableNavbar]="true"></ds-user-menu>
-        </li>
-        <li *ngFor="let section of (sections | async)">
-
-          <ng-container *ngComponentOutlet="(sectionMap$ | async).get(section.id)?.component; injector: (sectionMap$ | async).get(section.id)?.injector;"></ng-container>
-        </li>
-      </ul>
+<nav
+    [ngClass]="{ open: !(menuCollapsed | async) }"
+    [@slideMobileNav]="
+    !(windowService.isXsOrSm() | async)
+      ? 'default'
+      : (menuCollapsed | async)
+      ? 'collapsed'
+      : 'expanded'
+  "
+    class="navbar navbar-expand-md navbar-light p-0 navbar-container d-flex flex-column"
+    role="navigation"
+    [attr.aria-label]="'nav.main.description' | translate"
+>
+  <div
+      class="navbar-inner-container w-100 h-100"
+      [class.container]="!(isXsOrSm$ | async)"
+  >
+    <div id="collapsingNav" class="w-100 h-100">
+      <div class="align-items-center d-flex justify-content-between my-1">
+        <a routerLink="/home">
+          <img
+              src="https://guiaweb.usach.cl/sites/default/files/logo-usach-transparente.png"
+              style="height: 70px !important; max-height: 70px !important"
+              [attr.alt]="'menu.header.image.logo' | translate"
+          />
+        </a>
+        <div>
+          <ul
+              class="navbar-nav me-auto mb-2 mb-lg-0 h-50 d-flex justify-content-end"
+          >
+            <li>
+              <a class="nav-item nav-link-sub mr-5" href="#">Qué es Sic</a>
+            </li>
+            <li>
+              <a class="nav-item nav-link-sub mr-5" href="#"
+              >Estadísticas prueba</a
+              >
+            </li>
+            <li>
+              <a class="nav-item nav-link-sub mr-5" href="#">Guia Usuario</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
-    <div class="navbar-buttons d-flex align-items-center gapx-1">
-      <ds-themed-search-navbar class="navbar-collapsed"></ds-themed-search-navbar>
+    <div class="navbar-buttons d-flex gapx-1">
+      <ds-themed-search-navbar
+          class="navbar-collapsed"
+      ></ds-themed-search-navbar>
       <ds-themed-lang-switch class="navbar-collapsed"></ds-themed-lang-switch>
       <ds-context-help-toggle class="navbar-collapsed"></ds-context-help-toggle>
-      <ds-themed-auth-nav-menu class="navbar-collapsed"></ds-themed-auth-nav-menu>
+      <ds-themed-auth-nav-menu
+          class="navbar-collapsed"
+      ></ds-themed-auth-nav-menu>
       <ds-impersonate-navbar class="navbar-collapsed"></ds-impersonate-navbar>
+    </div>
+  </div>
+  <div
+      class="navbar-inner-container w-100 h-100"
+      style="background-color: #00a499"
+  >
+    <div id="collapsingNav" class="w-100 h-100">
+      <div style="background: #00a499">
+        <ul
+            class="navbar-nav me-auto mb-2 mb-lg-0 h-50 d-flex justify-content-center"
+        >
+          <li *ngIf="(isXsOrSm$ | async) && (isAuthenticated$ | async)">
+            <ds-user-menu [inExpandableNavbar]="true"></ds-user-menu>
+          </li>
+          <li *ngFor="let section of sections | async" class="mr-5">
+            <ng-container
+                *ngComponentOutlet="
+                (sectionMap$ | async).get(section.id)?.component;
+                injector: (sectionMap$ | async).get(section.id)?.injector;
+                color: white
+              "
+            ></ng-container>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </nav>

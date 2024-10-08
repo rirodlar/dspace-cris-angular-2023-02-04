@@ -7,7 +7,7 @@ nav.navbar {
 }
 
 .navbar-nav {
-  background-color: var(--ds-navbar-bg);
+  // background-color: var(--ds-navbar-bg);
 }
 
 /** Mobile menu styling **/
@@ -47,7 +47,9 @@ nav.navbar {
     }
     padding: 0;
   }
-  height: 80px;
+
+  height: 119px;
+  min-height: 0px !important;
 }
 
 a.navbar-brand img {
@@ -55,10 +57,18 @@ a.navbar-brand img {
 }
 
 .navbar-nav {
-  ::ng-deep a.nav-link {
+  ::ng-deep a.nav-link-sub {
     color: var(--ds-navbar-link-color);
+    &:hover,
+    &:focus {
+      color: var(--ds-navbar-link-color-hover);
+    }
+  }
 
-    &:hover, &:focus {
+  ::ng-deep a.nav-link {
+    color: #ffffff;
+    &:hover,
+    &:focus {
       color: var(--ds-navbar-link-color-hover);
     }
   }
