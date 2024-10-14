@@ -1730,7 +1730,7 @@
 
   "RELATION.Project.researchoutputs.search.results.head": "Publications",
 
-  "RELATION.OrgUnit.people.search.results.head": "People",
+  "RELATION.OrgUnit.people.search.results.head": "People4",
 
   "datafile.listelement.badge": "Data File",
 
@@ -2168,7 +2168,7 @@
 
   "explore.browse-section.title": "Browse",
 
-  "explore.counters-section.rprofiles": "People",
+  "explore.counters-section.rprofiles": "People5",
 
   "explore.counters-section.publications": "Research outputs",
 
@@ -2327,7 +2327,7 @@
 
   "explore.researchoutputs.breadcrumbs": "Research Outputs",
 
-  "explore.researcherprofiles.breadcrumbs": "People",
+  "explore.researcherprofiles.breadcrumbs": "People6",
 
   "explore.title": "Explore section",
   "export-schema.process.title": "Metadata Schema Export",
@@ -3834,7 +3834,7 @@
 
   "menu.section.access_control_groups": "Groups",
 
-  "menu.section.access_control_people": "People",
+  "menu.section.access_control_people": "People7",
 
   "menu.section.admin_search": "Admin Search",
 
@@ -3852,7 +3852,7 @@
 
   "menu.section.explore_researchoutputs": "Research Outputs",
 
-  "menu.section.explore_researcherprofiles": "People",
+  "menu.section.explore_researcherprofiles": "People1",
 
   "menu.section.explore_orgunits": "Organizations",
 
@@ -5192,9 +5192,9 @@
 
   "search.filters.filter.namedresourcetype.label": "Search status",
 
-  "search.filters.filter.objectpeople.head": "People",
+  "search.filters.filter.objectpeople.head": "People2",
 
-  "search.filters.filter.objectpeople.placeholder": "People",
+  "search.filters.filter.objectpeople.placeholder": "People3",
 
   "search.filters.filter.objectpeople.label": "Search people",
 
