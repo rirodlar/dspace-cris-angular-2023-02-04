@@ -67,14 +67,40 @@
           <li *ngIf="(isXsOrSm$ | async) && (isAuthenticated$ | async)">
             <ds-user-menu [inExpandableNavbar]="true"></ds-user-menu>
           </li>
+
+          <li class="nav-item d-flex align-items-center">
+            <div class="text-md-center">
+              <a href="/search?configuration=person&page=1&spc.page=1" class="nav-link">Personal de Investigación</a>
+            </div>
+          </li>
+
+          <li class="nav-item d-flex align-items-center">
+            <div class="text-md-center">
+              <a href="/communities/0e9c610e-7e14-40f6-b782-36b5dbcc371a" class="nav-link">Unidad Académica</a>
+            </div>
+          </li>
+
+          <li class="nav-item d-flex align-items-center">
+            <div class="text-md-center">
+              <a href="/collections/a65b7850-ee49-4212-9aab-3953200aa6c7" class="nav-link">Publicaciones</a>
+            </div>
+          </li>
+
+          <li class="nav-item d-flex align-items-center">
+            <div class="text-md-center">
+              <a href="/community-list" class="nav-link">Otros</a>
+            </div>
+          </li>
+
           <li *ngFor="let section of sections | async" class="mr-5">
-            <ng-container
-                *ngComponentOutlet="
-                (sectionMap$ | async).get(section.id)?.component;
-                injector: (sectionMap$ | async).get(section.id)?.injector;
-                color: white
-              "
-            ></ng-container>
+
+<!--            <ng-container-->
+<!--                *ngComponentOutlet="-->
+<!--                (sectionMap$ | async).get(section.id)?.component;-->
+<!--                injector: (sectionMap$ | async).get(section.id)?.injector;-->
+<!--                color: white-->
+<!--              "-->
+<!--            ></ng-container>-->
           </li>
         </ul>
       </div>
