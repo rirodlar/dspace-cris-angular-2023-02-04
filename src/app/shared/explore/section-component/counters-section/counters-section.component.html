@@ -1,10 +1,12 @@
 <div>
   <div class="card p-3">
+    INI COUNTERS--
     <div class="d-flex flex-wrap flex-row justify-content-around gap-4">
       <div *ngIf="isLoading$ | async">
         <ds-loading message="{{'loading.default' | translate}}"></ds-loading>
       </div>
       <ng-container *ngFor="let counter of (counterData$ | async)">
+        {{counter|json}}
         <ng-container *ngIf="counter.link; else countersSectionContent">
           <a class="text-decoration-none" *ngIf="internalLinkService.isLinkInternal(counter.link)" [routerLink]="internalLinkService.getRelativePath(counter.link)">
             <ng-container *ngTemplateOutlet="countersSectionContent"></ng-container>
@@ -20,11 +22,12 @@
               {{ 'explore.counters-section.' + counter.label | translate }}
             </div>
             <div class="text-center font-weight-bold">
-              <b>{{ counter.count }}</b>
+             A <b>{{ counter.count }}</b>
             </div>
           </div>
         </ng-template>
       </ng-container>
+      FIN COUNTERS--
     </div>
   </div>
 </div>
