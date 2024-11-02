@@ -7,6 +7,7 @@ import { ThemedPrivacyComponent } from './privacy/themed-privacy.component';
 import { ThemedFeedbackComponent } from './feedback/themed-feedback.component';
 import { FeedbackGuard } from '../core/feedback/feedback.guard';
 import { environment } from '../../environments/environment';
+import {QueEsSicComponent} from "./sic/QueEsSicComponent";
 
 
 const imports = [
@@ -17,6 +18,12 @@ const imports = [
       resolve: { breadcrumb: I18nBreadcrumbResolver },
       data: { title: 'info.feedback.title', breadcrumbKey: 'info.feedback' },
       canActivate: [FeedbackGuard]
+    },
+    {
+      path: "que_es_sic",
+      component: QueEsSicComponent,
+      resolve: { breadcrumb: I18nBreadcrumbResolver },
+      data: { title: 'Que es Sic', breadcrumbKey: 'info.que_es_sic' }
     }
   ])
 ];
