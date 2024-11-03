@@ -2,7 +2,7 @@
 
   <div class="containerq" style="background-color: #BFE5E5 !important;">
 
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid" style="border-bottom: 2px #ec7803 solid">
 
       <ds-themed-text-section *ngIf="hasHomeNewsMetadata; else dsDefaultHomeNews" [sectionId]="'site'" [textRowSection]="homeNewsSection"
                               [site]="(site$ | async)"></ds-themed-text-section>
