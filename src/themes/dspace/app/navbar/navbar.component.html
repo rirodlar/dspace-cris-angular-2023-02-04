@@ -15,11 +15,12 @@
       class="navbar-inner-container w-100 h-100"
       [class.container]="!(isXsOrSm$ | async)"
   >
+
     <div id="collapsingNav" class="w-100 h-100">
       <div class="align-items-center d-flex justify-content-between my-1">
         <a routerLink="/home">
           <img
-              src="https://guiaweb.usach.cl/sites/default/files/logo-usach-transparente.png"
+              src="assets/images/Usach_S1.png"
               style="height: 70px !important; max-height: 70px !important"
               [attr.alt]="'menu.header.image.logo' | translate"
           />
@@ -29,15 +30,15 @@
               class="navbar-nav me-auto mb-2 mb-lg-0 h-50 d-flex justify-content-end"
           >
             <li>
-              <a class="nav-item nav-link-sub mr-5" href="info/que_es_sic">¿Qué es SIC?</a>
+              <a class="nav-item nav-link-sub mr-5" style="font-weight: 900" href="info/que_es_sic">Qué es SIC</a>
             </li>
             <li>
-              <a class="nav-item nav-link-sub mr-5" href="https://sic.vriic.usach.cl/statistics"
+              <a class="nav-item nav-link-sub mr-5" style="font-weight: 900" href="https://sic.vriic.usach.cl/statistics"
               >Estadísticas</a
               >
             </li>
             <li>
-              <a class="nav-item nav-link-sub mr-5" href="#">Guía de Usuarios</a>
+              <a class="nav-item nav-link-sub mr-5" style="font-weight: 900" href="#">Guía de Usuario</a>
             </li>
           </ul>
         </div>
@@ -62,10 +63,18 @@
     <div id="collapsingNav" class="w-100 h-100">
       <div style="background: #00a499">
         <ul
-            class="navbar-nav me-auto mb-2 mb-lg-0 h-50 d-flex justify-content-center"
+            class="navbar-nav me-auto mb-2 mb-lg-0 h-50 d-flex justify-content-around"
         >
           <li *ngIf="(isXsOrSm$ | async) && (isAuthenticated$ | async)">
             <ds-user-menu [inExpandableNavbar]="true"></ds-user-menu>
+          </li>
+
+          <li class="nav-item d-flex align-items-center">
+            <div class="text-md-center">
+                <a href="/">
+                 <i style="color: white" class="fas fa-home"></i>
+                </a>
+            </div>
           </li>
 
           <li class="nav-item d-flex align-items-center">
@@ -92,13 +101,13 @@
             </div>
           </li>
 
-          <li class="nav-item d-flex align-items-center">
-            <div class="text-md-center">
-              <a href="/statistics" class="nav-link">Estadisticas</a>
-            </div>
-          </li>
+<!--          <li class="nav-item d-flex align-items-center">-->
+<!--            <div class="text-md-center">-->
+<!--              <a href="/statistics" class="nav-link">Estadisticas</a>-->
+<!--            </div>-->
+<!--          </li>-->
 
-          <li *ngFor="let section of sections | async" class="mr-5">
+<!--          <li *ngFor="let section of sections | async" class="mr-5">-->
 
 <!--            <ng-container-->
 <!--                *ngComponentOutlet="-->
@@ -107,7 +116,7 @@
 <!--                color: white-->
 <!--              "-->
 <!--            ></ng-container>-->
-          </li>
+<!--          </li>-->
         </ul>
       </div>
     </div>
