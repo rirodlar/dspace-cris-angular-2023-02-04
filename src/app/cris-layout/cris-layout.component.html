@@ -1,4 +1,4 @@
-<div class="cris-layout">
+<div class="cris-layout" style="background-color: white">
 	<ng-container *ngIf="!!tabs$">
 		<ng-container *ngVar="(leadingTabs$ | async) as leadingTabs">
 			<ds-cris-layout-leading *ngIf="(hasLeadingTab$ | async) && !!leadingTabs && leadingTabs.length > 0"
