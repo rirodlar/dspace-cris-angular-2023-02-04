@@ -1,5 +1,6 @@
 <div>
   <div class="card p-3">
+
     <div class="d-flex flex-wrap flex-row justify-content-around gap-4">
       <div *ngIf="isLoading$ | async">
         <ds-loading message="{{'loading.default' | translate}}"></ds-loading>
@@ -15,9 +16,9 @@
         </ng-container>
         <ng-template #countersSectionContent>
           <div class="d-flex flex-wrap flex-column justify-content-between align-items-center gapy-1 counters-section">
-            <i class="d-block mb-2" [ngClass]="counter.icon"></i>
+            <i  class="d-block mb-2" [ngClass]="counter.icon" style="color: #ec7803"></i>
             <div class="counters-label text-center">
-              {{ 'explore.counters-section.' + counter.label | translate }}
+              {{  counter.label }}
             </div>
             <div class="text-center font-weight-bold">
               <b>{{ counter.count }}</b>
@@ -25,6 +26,7 @@
           </div>
         </ng-template>
       </ng-container>
+
     </div>
   </div>
 </div>
