@@ -73,3 +73,21 @@ a.navbar-brand img {
     }
   }
 }
+
+/* Estilo para el submenú */
+.dropdown-menu {
+  display: block;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Personaliza los ítems del submenú */
+.dropdown-item {
+  color: #00a499;
+}
+
+.dropdown-item:hover {
+  background-color: #ddd;
+  color: white;
+}

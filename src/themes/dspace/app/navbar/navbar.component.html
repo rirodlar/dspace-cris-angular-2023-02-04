@@ -1,44 +1,56 @@
 <nav
-    [ngClass]="{ open: !(menuCollapsed | async) }"
-    [@slideMobileNav]="
+  [ngClass]="{ open: !(menuCollapsed | async) }"
+  [@slideMobileNav]="
     !(windowService.isXsOrSm() | async)
       ? 'default'
       : (menuCollapsed | async)
       ? 'collapsed'
       : 'expanded'
   "
-    class="navbar navbar-expand-md navbar-light p-0 navbar-container d-flex flex-column"
-    role="navigation"
-    [attr.aria-label]="'nav.main.description' | translate"
+  class="navbar navbar-expand-md navbar-light p-0 navbar-container d-flex flex-column"
+  role="navigation"
+  [attr.aria-label]="'nav.main.description' | translate"
 >
   <div
-      class="navbar-inner-container w-100 h-100"
-      [class.container]="!(isXsOrSm$ | async)"
+    class="navbar-inner-container w-100 h-100"
+    [class.container]="!(isXsOrSm$ | async)"
   >
-
     <div id="collapsingNav" class="w-100 h-100">
       <div class="align-items-center d-flex justify-content-between my-1">
         <a routerLink="/home">
           <img
-              src="assets/images/Usach_S1.png"
-              style="height: 70px !important; max-height: 70px !important"
-              [attr.alt]="'menu.header.image.logo' | translate"
+            src="assets/images/Usach_S1.png"
+            style="height: 70px !important; max-height: 70px !important"
+            [attr.alt]="'menu.header.image.logo' | translate"
           />
         </a>
         <div>
           <ul
-              class="navbar-nav me-auto mb-2 mb-lg-0 h-50 d-flex justify-content-end"
+            class="navbar-nav me-auto mb-2 mb-lg-0 h-50 d-flex justify-content-end"
           >
             <li>
-              <a class="nav-item nav-link-sub mr-5" style="font-weight: 900" href="info/que_es_sic">¿Qué es SIC?</a>
+              <a
+                class="nav-item nav-link-sub mr-5"
+                style="font-weight: 900"
+                href="info/que_es_sic"
+              >¿Qué es SIC?</a
+              >
             </li>
             <li>
-              <a class="nav-item nav-link-sub mr-5" style="font-weight: 900" href="https://sic.vriic.usach.cl/statistics"
+              <a
+                class="nav-item nav-link-sub mr-5"
+                style="font-weight: 900"
+                href="https://sic.vriic.usach.cl/statistics"
               >Estadísticas</a
               >
             </li>
             <li>
-              <a class="nav-item nav-link-sub mr-5" style="font-weight: 900" href="#">Guía de Usuario</a>
+              <a
+                class="nav-item nav-link-sub mr-5"
+                style="font-weight: 900"
+                href="#"
+              >Guía de Usuario</a
+              >
             </li>
           </ul>
         </div>
@@ -46,24 +58,24 @@
     </div>
     <div class="navbar-buttons d-flex gapx-1">
       <ds-themed-search-navbar
-          class="navbar-collapsed"
+        class="navbar-collapsed"
       ></ds-themed-search-navbar>
       <ds-themed-lang-switch class="navbar-collapsed"></ds-themed-lang-switch>
       <ds-context-help-toggle class="navbar-collapsed"></ds-context-help-toggle>
       <ds-themed-auth-nav-menu
-          class="navbar-collapsed"
+        class="navbar-collapsed"
       ></ds-themed-auth-nav-menu>
       <ds-impersonate-navbar class="navbar-collapsed"></ds-impersonate-navbar>
     </div>
   </div>
   <div
-      class="navbar-inner-container w-100 h-100"
-      style="background-color: #00a499"
+    class="navbar-inner-container w-100 h-100"
+    style="background-color: #00a499"
   >
     <div id="collapsingNav" class="w-100 h-100">
       <div style="background: #00a499">
         <ul
-            class="navbar-nav me-auto mb-2 mb-lg-0 h-50 d-flex justify-content-around"
+          class="navbar-nav me-auto mb-2 mb-lg-0 h-50 d-flex justify-content-around"
         >
           <li *ngIf="(isXsOrSm$ | async) && (isAuthenticated$ | async)">
             <ds-user-menu [inExpandableNavbar]="true"></ds-user-menu>
@@ -71,52 +83,90 @@
 
           <li class="nav-item d-flex align-items-center">
             <div class="text-md-center">
-                <a href="/">
-                 <i style="color: white" class="fas fa-home"></i>
-                </a>
+              <a href="/" class="nav-link">
+                <i style="color: white" class="fas fa-home"></i>
+                Home
+              </a>
             </div>
           </li>
 
           <li class="nav-item d-flex align-items-center">
             <div class="text-md-center">
-              <a href="/search?configuration=person&page=1&spc.page=1" class="nav-link">Personal de Investigación</a>
+              <a
+                href="/search?configuration=person&page=1&spc.page=1"
+                class="nav-link"
+              >Personal de Investigación</a
+              >
             </div>
           </li>
 
           <li class="nav-item d-flex align-items-center">
             <div class="text-md-center">
-              <a href="/communities/0e9c610e-7e14-40f6-b782-36b5dbcc371a" class="nav-link">Unidad Académica</a>
+              <a
+                href="/communities/0e9c610e-7e14-40f6-b782-36b5dbcc371a"
+                class="nav-link"
+              >Unidad Académica</a
+              >
             </div>
           </li>
 
           <li class="nav-item d-flex align-items-center">
             <div class="text-md-center">
-              <a href="/collections/a65b7850-ee49-4212-9aab-3953200aa6c7" class="nav-link">Publicaciones</a>
+              <a
+                href="/collections/a65b7850-ee49-4212-9aab-3953200aa6c7"
+                class="nav-link"
+              >
+                Publicaciones
+              </a>
             </div>
           </li>
 
-          <li class="nav-item d-flex align-items-center">
+          <li class="nav-item d-flex align-items-center dropdown">
             <div class="text-md-center">
-              <a href="/community-list" class="nav-link">Otros</a>
+              <a href="#" class="nav-link" (click)="toggleSubmenu($event)">
+                Colecciones
+                <i class="fas fa-angle-down"></i>
+              </a>
+              <ul class="dropdown-menu" *ngIf="isSubmenuOpen">
+                <li>
+                  <a class="dropdown-item" href="/collections/efb50a2f-434c-4b7d-925f-11c025d51afb">Datos de investigación</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/collections/8c37f013-7816-4dc3-9603-573b3e6d3d88">Divulgación Científica</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/collections/efb50a2f-434c-4b7d-925f-11c025d51afb">
+                    Personal de investigación
+                  </a>
+                </li>
+                <li><a class="dropdown-item" href="/collections/26f606ca-20a6-42da-9489-22725420726c">Protecciones</a></li>
+                <li>
+                  <a class="dropdown-item" href="/collections/2c6bbf78-f724-4347-b2e8-da1f65efa0b9">Proyectos externos</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/collections/d3387613-4ab8-4b4f-8e68-5b028d579c43">Proyectos internos</a>
+                </li>
+                <li><a class="dropdown-item" href="/collections/a65b7850-ee49-4212-9aab-3953200aa6c7">Publicaciones</a></li>
+              </ul>
             </div>
           </li>
 
-<!--          <li class="nav-item d-flex align-items-center">-->
-<!--            <div class="text-md-center">-->
-<!--              <a href="/statistics" class="nav-link">Estadisticas</a>-->
-<!--            </div>-->
-<!--          </li>-->
+          <!--          <li class="nav-item d-flex align-items-center">-->
+          <!--            <div class="text-md-center">-->
+          <!--              <a href="/statistics" class="nav-link">Estadisticas</a>-->
+          <!--            </div>-->
+          <!--          </li>-->
 
-<!--          <li *ngFor="let section of sections | async" class="mr-5">-->
+          <!--          <li *ngFor="let section of sections | async" class="mr-5">-->
 
-<!--            <ng-container-->
-<!--                *ngComponentOutlet="-->
-<!--                (sectionMap$ | async).get(section.id)?.component;-->
-<!--                injector: (sectionMap$ | async).get(section.id)?.injector;-->
-<!--                color: white-->
-<!--              "-->
-<!--            ></ng-container>-->
-<!--          </li>-->
+          <!--            <ng-container-->
+          <!--                *ngComponentOutlet="-->
+          <!--                (sectionMap$ | async).get(section.id)?.component;-->
+          <!--                injector: (sectionMap$ | async).get(section.id)?.injector;-->
+          <!--                color: white-->
+          <!--              "-->
+          <!--            ></ng-container>-->
+          <!--          </li>-->
         </ul>
       </div>
     </div>
