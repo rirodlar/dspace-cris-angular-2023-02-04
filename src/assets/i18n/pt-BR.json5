@@ -7338,6 +7338,8 @@
   // "search.filters.applied.charts.RELATION.Person.researchoutputs.title": "Research Output",
   // TODO New key - Add a translation
   "search.filters.applied.charts.RELATION.Person.researchoutputs.title": "Research Output",
+  "search.filters.applied.charts.RELATION.Person.researchoutputsPatent.title": "Protecciones",
+  "search.filters.applied.charts.RELATION.Person.researchoutputsProduct.title": "Datos de investigación",
 
   // "search.filters.applied.charts.RELATION.Project.fundings.title": "Fundings",
   // TODO New key - Add a translation
