@@ -5001,6 +5001,8 @@
 
   "search.filters.applied.f.jobTitle": "Job Title",
 
+  "search.filters.applied.f.knowsLanguage:": "Language",
+
   "search.filters.applied.f.birthDate.max": "End birth date",
 
   "search.filters.applied.f.birthDate.min": "Start birth date",
