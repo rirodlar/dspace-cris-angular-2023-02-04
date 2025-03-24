@@ -4989,11 +4989,11 @@
 
   "search.filters.applied.f.namedresourcetype": "Status",
 
-  "search.filters.applied.f.personorgunits": "Organisation",
+  "search.filters.applied.f.personorgunits": "Organisation1",
 
-  "search.filters.applied.f.personOrgUnits": "Organisation",
+  "search.filters.applied.f.personOrgUnits": "Organisation2",
 
-  "search.filters.applied.f.projectorgunits": "Organisation",
+  "search.filters.applied.f.projectorgunits": "Organisation3",
 
   "search.filters.applied.f.subject": "Subject",
 
@@ -5001,7 +5001,7 @@
 
   "search.filters.applied.f.jobTitle": "Job Title",
 
-  "search.filters.applied.f.knowsLanguage:": "Language",
+  "search.filters.applied.f.knowsLanguage": "Language",
 
   "search.filters.applied.f.birthDate.max": "End birth date",
 
