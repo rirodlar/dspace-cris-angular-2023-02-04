@@ -8245,7 +8245,7 @@
   "search.filters.applied.f.birthDate.max": "Fecha de nacimiento, final",
 
 
-  "search.filters.applied.f.knowsLanguage:": "Idioma",
+  "search.filters.applied.f.knowsLanguage": "Idioma",
 
   // "search.filters.applied.f.birthDate.min": "Start birth date",
   "search.filters.applied.f.birthDate.min": "Fecha de nacimiento, inicial",
