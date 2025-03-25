@@ -26,6 +26,7 @@ rest:
   port: 443
   # NOTE: Space is capitalized because 'namespace' is a reserved string in TypeScript
   nameSpace: /server
+  ssrBaseUrl: http://158.170.66.169:8080/server
 
 # Caching settings
 cache:
