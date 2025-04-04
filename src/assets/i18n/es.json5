@@ -2688,7 +2688,7 @@
 
   // "RELATION.OrgUnit.organizations.search.results.head" : "Organizations",
   // TODO New key - Add a translation
-  "RELATION.OrgUnit.organizations.search.results.head": "Organizations",
+  "RELATION.OrgUnit.organizations.search.results.head": "Unidades Académicas",
 
   // "RELATION.OrgUnit.rppublications.search.results.head" : "Researchers Publications",
   // TODO New key - Add a translation
@@ -3433,7 +3433,7 @@
 
   // "explore.index.eqorgunit" : "Organization",
   // TODO New key - Add a translation
-  "explore.index.eqorgunit": "Organization",
+  "explore.index.eqorgunit": "Unidad Académica",
 
   // "explore.index.entityType" : "Entity type",
   // TODO New key - Add a translation
@@ -3469,7 +3469,7 @@
 
   // "explore.index.isOrgUnitOfPerson" : "Person's organization",
   // TODO New key - Add a translation
-  "explore.index.isOrgUnitOfPerson": "Person's organization",
+  "explore.index.isOrgUnitOfPerson": "UPersonas de la unidad academica",
 
   // "explore.index.isOrgUnitOfProject" : "Project's organization",
   // TODO New key - Add a translation
@@ -3477,11 +3477,11 @@
 
   // "explore.index.isOrgUnitOfPublication" : "Publication's organization",
   // TODO New key - Add a translation
-  "explore.index.isOrgUnitOfPublication": "Publication's organization",
+  "explore.index.isOrgUnitOfPublication": "publicaciones de Unidad Académica ",
 
   // "explore.index.isPersonOfOrgUnit" : "Organization's person",
   // TODO New key - Add a translation
-  "explore.index.isPersonOfOrgUnit": "Organization's person",
+  "explore.index.isPersonOfOrgUnit": "Personas de la unidad academica",
 
   // "explore.index.isPersonOfProject" : "Project's person",
   // TODO New key - Add a translation
@@ -3489,7 +3489,7 @@
 
   // "explore.index.isProjectOfOrgUnit" : "Organization's project",
   // TODO New key - Add a translation
-  "explore.index.isProjectOfOrgUnit": "Organization's project",
+  "explore.index.isProjectOfOrgUnit": "Proyectos de la unidad acadèmica",
 
   // "explore.index.isProjectOfPerson" : "Person's project",
   // TODO New key - Add a translation
@@ -8582,15 +8582,15 @@
 
   // "search.filters.filter.organization.head": "Organization",
   // TODO New key - Add a translation
-  "search.filters.filter.organization.head": "Organization",
+  "search.filters.filter.organization.head": "Unidad Académica",
 
   // "search.filters.filter.organization.placeholder": "Organization",
   // TODO New key - Add a translation
-  "search.filters.filter.organization.placeholder": "Organization",
+  "search.filters.filter.organization.placeholder": "Unidad Académica",
 
   // "search.filters.filter.organization.label": "Search organization",
   // TODO New key - Add a translation
-  "search.filters.filter.organization.label": "Search organization",
+  "search.filters.filter.organization.label": "Buscar Unidad Académica",
 
   // "search.filters.filter.organizationAddressCountry.head": "Country",
   "search.filters.filter.organizationAddressCountry.head": "País",
@@ -8749,7 +8749,7 @@
 
   // "orgunit.search.results.head": "Organizations Search Results",
   // TODO New key - Add a translation
-  "orgunit.search.results.head": "Organizations Search Results",
+  "orgunit.search.results.head": "Resultados de la búsqueda Unidades Académicas",
 
   // "search.results.no-results": "Your search returned no results. Having trouble finding what you're looking for? Try putting",
   "search.results.no-results": "Su búsqueda no produjo resultados. ¿Tiene problemas para encontrar lo que busca? Intente poner",
