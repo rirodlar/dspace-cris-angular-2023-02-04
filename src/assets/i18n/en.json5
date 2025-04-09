@@ -2259,7 +2259,7 @@
 
   "explore.index.knowsLanguage": "Knows languages",
 
-  "explore.index.organization": "Organization",
+  "explore.index.organization": "Unidad Académica",
 
   "explore.index.organizationAddressCountry": "Organization address country",
 
@@ -2275,9 +2275,9 @@
 
   "explore.index.ouname": "Name",
 
-  "explore.index.projectOrgUnits": "Organizations",
+  "explore.index.projectOrgUnits": "unidad Académica",
 
-  "explore.index.personOrgUnits": "Organizations",
+  "explore.index.personOrgUnits": "Unidad Académica",
 
   "explore.index.pjtitle": "Title",
 
@@ -2301,7 +2301,7 @@
 
   "explore.search-section.fundings_and_projects.title": "Search Projects",
 
-  "explore.search-section.orgunits.title": "Search Organizations",
+  "explore.search-section.orgunits.title": "Buscar Unidad Académica",
 
   "explore.search-section.publications.title": "Search Research Outputs",
 
@@ -2321,7 +2321,7 @@
 
   "explore.fundings_and_projects.breadcrumbs": "Projects",
 
-  "explore.orgunits.breadcrumbs": "Organizations",
+  "explore.orgunits.breadcrumbs": "Unidad Académica",
 
   "explore.publications.breadcrumbs": "Research Outputs",
 
@@ -3854,7 +3854,7 @@
 
   "menu.section.explore_researcherprofiles": "People1",
 
-  "menu.section.explore_orgunits": "Organizations",
+  "menu.section.explore_orgunits": "unidades Académicas",
 
   "menu.section.browse_global_by_srsc": "By Subject Category",
 
@@ -4357,7 +4357,7 @@
   "reciter.suggestion.type.orcidWorks": "Publications",
 
 
-  "orgunit.listelement.badge": "Organizational Unit",
+  "orgunit.listelement.badge": "Unidad Académica",
 
   "orgunit.listelement.no-title": "Untitled",
 
@@ -4373,7 +4373,7 @@
 
   "orgunit.page.id": "ID",
 
-  "orgunit.page.titleprefix": "Organizational Unit: ",
+  "orgunit.page.titleprefix": "Unidad Académica: ",
 
   "pagination.options.description": "Pagination options",
 
@@ -4801,7 +4801,7 @@
 
   "relationships.isAuthorOf.Person": "Authors (persons)",
 
-  "relationships.isAuthorOf.OrgUnit": "Authors (organizational units)",
+  "relationships.isAuthorOf.OrgUnit": "Autores (Unidad Académica)",
 
   "relationships.isIssueOf": "Journal Issues",
 
@@ -4809,7 +4809,7 @@
 
   "relationships.isJournalOf": "Journals",
 
-  "relationships.isOrgUnitOf": "Organizational Units",
+  "relationships.isOrgUnitOf": "Unidad Académica",
 
   "relationships.isPersonOf": "Authors",
 
@@ -4827,7 +4827,7 @@
 
   "relationships.isContributorOf": "Contributors",
 
-  "relationships.isContributorOf.OrgUnit": "Contributor (Organizational Unit)",
+  "relationships.isContributorOf.OrgUnit": "Contributor (Unidad Académica)",
 
   "relationships.isContributorOf.Person": "Contributor",
 
@@ -5019,7 +5019,7 @@
 
   "search.filters.applied.f.graphpubldatetrl": "Public date RTL",
 
-  "search.filters.applied.f.organization": "Organisation",
+  "search.filters.applied.f.organization": "Unidad Académica",
 
   "search.filters.applied.charts.defaultConfiguration.title": "Search Output",
 
@@ -5135,9 +5135,9 @@
 
   "search.filters.filter.eqowner.placeholder": "Researcher",
 
-  "search.filters.filter.eqorgunit.head": "Organization",
+  "search.filters.filter.eqorgunit.head": "Unidad Académica",
 
-  "search.filters.filter.eqorgunit.placeholder": "Organization",
+  "search.filters.filter.eqorgunit.placeholder": "Unidad Académica",
 
   "search.filters.filter.funding.head": "Funding",
 
