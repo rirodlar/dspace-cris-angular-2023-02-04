@@ -3613,7 +3613,7 @@
 
   // "explore.search-section.orgunits.title": "Search Organizations",
   // TODO New key - Add a translation
-  "explore.search-section.orgunits.title": "Search Organizations",
+  "explore.search-section.orgunits.title": "Buscar Unidad Académica",
 
   // "explore.search-section.publications.title": "Search Research Outputs",
   // TODO New key - Add a translation
@@ -8556,7 +8556,7 @@
 
   // "search.filters.filter.personOrgUnits.label" : "Search organizations",
   // TODO New key - Add a translation
-  "search.filters.filter.personOrgUnits.label": "Buscar unidad Académica",
+  "search.filters.filter.personOrgUnits.label": "Buscar Unidad Académica",
 
   // "search.filters.filter.personOrgUnits.placeholder" : "Organizations",
   // TODO New key - Add a translation

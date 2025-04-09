@@ -1718,7 +1718,7 @@
 
   "RELATION.Person.projects.search.results.head": "Projects",
 
-  "RELATION.OrgUnit.organizations.search.results.head": "Organizations",
+  "RELATION.OrgUnit.organizations.search.results.head": "Unidad Académica",
 
   "RELATION.OrgUnit.rppublications.search.results.head": "Researchers Publications",
 
@@ -5177,17 +5177,17 @@
 
   "search.filters.filter.language.placeholder": "Language",
 
-  "search.filters.filter.projectOrgUnits.head": "Organizations",
+  "search.filters.filter.projectOrgUnits.head": "Unidad Académica",
 
-  "search.filters.filter.projectOrgUnits.label": "Organizations",
+  "search.filters.filter.projectOrgUnits.label": "Unidad Académica",
 
-  "search.filters.filter.projectOrgUnits.placeholder": "Organizations",
+  "search.filters.filter.projectOrgUnits.placeholder": "Unidad Académica",
 
-  "search.filters.filter.personOrgUnits.head": "Organizations",
+  "search.filters.filter.personOrgUnits.head": "Unidad Académica",
 
-  "search.filters.filter.personOrgUnits.label": "Search organizations",
+  "search.filters.filter.personOrgUnits.label": "Search Unidad Académica",
 
-  "search.filters.filter.personOrgUnits.placeholder": "Organizations",
+  "search.filters.filter.personOrgUnits.placeholder": "Unidad Académica",
 
   "search.filters.filter.namedresourcetype.head": "Status",
 
@@ -5318,7 +5318,7 @@
 
   "researchoutputs.search.results.head": "Publications Search Results",
 
-  "orgunit.search.results.head": "Organizations Search Results",
+  "orgunit.search.results.head": "Unidad Académica Search Results",
 
   "search.results.no-results": "Your search returned no results. Having trouble finding what you're looking for? Try putting",
 

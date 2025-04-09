@@ -2619,7 +2619,7 @@
 
   // "RELATION.OrgUnit.organizations.search.results.head" : "Organizations",
   // TODO New key - Add a translation
-  "RELATION.OrgUnit.organizations.search.results.head": "Organizations",
+  "RELATION.OrgUnit.organizations.search.results.head": "Unidad Académica",
 
   // "RELATION.OrgUnit.rppublications.search.results.head" : "Researchers Publications",
   // TODO New key - Add a translation
