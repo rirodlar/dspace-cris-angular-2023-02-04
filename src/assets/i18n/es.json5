@@ -1494,11 +1494,11 @@
 
   // "browse.comcol.by.rodept": "By Department",
   // TODO New key - Add a translation
-  "browse.comcol.by.rodept": "By Department",
+  "browse.comcol.by.rodept": "Por Unidad Académica",
 
   // "browse.comcol.by.rpdept": "By Department",
   // TODO New key - Add a translation
-  "browse.comcol.by.rpdept": "By Department",
+  "browse.comcol.by.rpdept": "Por Unidad Académica",
 
   // "browse.comcol.by.rpname": "By Name",
   // TODO New key - Add a translation
@@ -1600,11 +1600,11 @@
 
   // "browse.metadata.rodept.breadcrumbs": "Browse by Department",
   // TODO New key - Add a translation
-  "browse.metadata.rodept.breadcrumbs": "Browse by Department",
+  "browse.metadata.rodept.breadcrumbs": "Explorar por Unidad Académica",
 
   // "browse.metadata.rpdept.breadcrumbs" : "Browse by Department",
   // TODO New key - Add a translation
-  "browse.metadata.rpdept.breadcrumbs": "Browse by Department",
+  "browse.metadata.rpdept.breadcrumbs": "Explorar por Unidad Académica",
 
   // "browse.metadata.rpname.breadcrumbs": "Browse by Name",
   // TODO New key - Add a translation

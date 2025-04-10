@@ -1456,11 +1456,11 @@
 
   // "browse.comcol.by.rodept": "By Department",
   // TODO New key - Add a translation
-  "browse.comcol.by.rodept": "By Department",
+  "browse.comcol.by.rodept": "Por Unidad Académica",
 
   // "browse.comcol.by.rpdept": "By Department",
   // TODO New key - Add a translation
-  "browse.comcol.by.rpdept": "By Department",
+  "browse.comcol.by.rpdept": "Por Unidad Académica",
 
   // "browse.comcol.by.rpname": "By Name",
   // TODO New key - Add a translation
@@ -5468,7 +5468,7 @@
 
   // "menu.section.explore_orgunits": "Organizations",
   // TODO New key - Add a translation
-  "menu.section.explore_orgunits": "Organizations",
+  "menu.section.explore_orgunits": "Unidad Académica",
 
   // "menu.section.browse_global_by_srsc": "By Subject Category", (Auto-Translated)
   "menu.section.browse_global_by_srsc": "Por categoria de assunto",

@@ -980,9 +980,9 @@
 
   "browse.comcol.by.pjtitle": "By Title",
 
-  "browse.comcol.by.rodept": "By Department",
+  "browse.comcol.by.rodept": "Por Unidad Académica",
 
-  "browse.comcol.by.rpdept": "By Department",
+  "browse.comcol.by.rpdept": "Por Unidad Académica",
 
   "browse.comcol.by.rpname": "By Name",
 
@@ -1041,9 +1041,9 @@
 
   "browse.metadata.pjtitle.breadcrumbs": "Browse by Title",
 
-  "browse.metadata.rodept.breadcrumbs": "Browse by Department",
+  "browse.metadata.rodept.breadcrumbs": "Explorar por Unidad Académica",
 
-  "browse.metadata.rpdept.breadcrumbs": "Browse by Department",
+  "browse.metadata.rpdept.breadcrumbs": "Explorar por Unidad Académica",
 
   "browse.metadata.rpname.breadcrumbs": "Browse by Name",
 
