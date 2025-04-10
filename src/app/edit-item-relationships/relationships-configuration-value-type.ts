@@ -3,7 +3,7 @@ export enum RelationshipsConfigurationValueType {
   Projects = 'projects',
   Researchoutputs = 'researchoutputs',
   People = 'people',
-  Organizations = 'organizations',
+  Organizations = 'organizations_',
   Publications = 'publications',
   Rppublications = 'rppublications',
   Fundings = 'fundings',
