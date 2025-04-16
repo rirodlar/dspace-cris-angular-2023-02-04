@@ -1687,11 +1687,11 @@
 
   // "browse.comcol.by.rodept": "By Department",
   // TODO New key - Add a translation
-  "browse.comcol.by.rodept": "By Department",
+  "browse.comcol.by.rodept": "By Unidad Académica",
 
   // "browse.comcol.by.rpdept": "By Department",
   // TODO New key - Add a translation
-  "browse.comcol.by.rpdept": "By Department",
+  "browse.comcol.by.rpdept": "By Unidad Académica",
 
   // "browse.comcol.by.rpname": "By Name",
   // TODO New key - Add a translation
@@ -1745,11 +1745,11 @@
 
   // "browse.metadata.rodept": "Department",
   // TODO New key - Add a translation
-  "browse.metadata.rodept": "Department",
+  "browse.metadata.rodept": "Unidad Académica",
 
   // "browse.metadata.rpdept": "Department",
   // TODO New key - Add a translation
-  "browse.metadata.rpdept": "Department",
+  "browse.metadata.rpdept": "Unidad Académica",
 
   // "browse.metadata.rpname": "Name",
   // TODO New key - Add a translation
@@ -1793,11 +1793,11 @@
 
   // "browse.metadata.rodept.breadcrumbs": "Browse by Department",
   // TODO New key - Add a translation
-  "browse.metadata.rodept.breadcrumbs": "Browse by Department",
+  "browse.metadata.rodept.breadcrumbs": "Browse by Unidad Académica",
 
   // "browse.metadata.rpdept.breadcrumbs" : "Browse by Department",
   // TODO New key - Add a translation
-  "browse.metadata.rpdept.breadcrumbs": "Browse by Department",
+  "browse.metadata.rpdept.breadcrumbs": "Browse by Unidad Académica",
 
   // "browse.metadata.rpname.breadcrumbs": "Browse by Name",
   // TODO New key - Add a translation
@@ -2908,7 +2908,7 @@
 
   // "RELATION.OrgUnit.organizations.search.results.head" : "Organizations",
   // TODO New key - Add a translation
-  "RELATION.OrgUnit.organizations.search.results.head": "Organizations",
+  "RELATION.OrgUnit.organizations.search.results.head": "Unidad Académica",
 
   // "RELATION.OrgUnit.rppublications.search.results.head" : "Researchers Publications",
   // TODO New key - Add a translation
@@ -3825,11 +3825,11 @@
 
   // "explore.index.projectOrgUnits" : "Organizations",
   // TODO New key - Add a translation
-  "explore.index.projectOrgUnits": "Organizations",
+  "explore.index.projectOrgUnits": "Unidad Académica",
 
   // "explore.index.personOrgUnits" : "Organizations",
   // TODO New key - Add a translation
-  "explore.index.personOrgUnits": "Organizations",
+  "explore.index.personOrgUnits": "Unidad Académica",
 
   // "explore.index.pjtitle" : "Title",
   // TODO New key - Add a translation
@@ -3845,7 +3845,7 @@
 
   // "explore.index.rpdept" : "Department",
   // TODO New key - Add a translation
-  "explore.index.rpdept": "Department",
+  "explore.index.rpdept": "Unidad Académica",
 
   // "explore.index.rpname" : "Name",
   // TODO New key - Add a translation
@@ -3917,7 +3917,7 @@
 
   // "explore.orgunits.breadcrumbs": "Organizations",
   // TODO New key - Add a translation
-  "explore.orgunits.breadcrumbs": "Organizations",
+  "explore.orgunits.breadcrumbs": "Unidad Académica",
 
   // "explore.publications.breadcrumbs": "Research Outputs",
   // TODO New key - Add a translation
@@ -6321,7 +6321,7 @@
 
   // "menu.section.explore_orgunits": "Organizations",
   // TODO New key - Add a translation
-  "menu.section.explore_orgunits": "Organizations",
+  "menu.section.explore_orgunits": "Unidad Académica",
 
   // "menu.section.explore_fundings": "Fundings",
   // TODO New key - Add a translation
@@ -8489,27 +8489,27 @@
 
   // "search.filters.filter.projectOrgUnits.head" : "Organizations",
   // TODO New key - Add a translation
-  "search.filters.filter.projectOrgUnits.head": "Organizations",
+  "search.filters.filter.projectOrgUnits.head": "Unidad Académica",
 
   // "search.filters.filter.projectOrgUnits.label" : "Organizations",
   // TODO New key - Add a translation
-  "search.filters.filter.projectOrgUnits.label": "Organizations",
+  "search.filters.filter.projectOrgUnits.label": "Unidad Académica",
 
   // "search.filters.filter.projectOrgUnits.placeholder" : "Organizations",
   // TODO New key - Add a translation
-  "search.filters.filter.projectOrgUnits.placeholder": "Organizations",
+  "search.filters.filter.projectOrgUnits.placeholder": "Unidad Académica",
 
   // "search.filters.filter.personOrgUnits.head" : "Organizations",
   // TODO New key - Add a translation
-  "search.filters.filter.personOrgUnits.head": "Organizations",
+  "search.filters.filter.personOrgUnits.head": "Unidad Académica",
 
   // "search.filters.filter.personOrgUnits.label" : "Search organizations",
   // TODO New key - Add a translation
-  "search.filters.filter.personOrgUnits.label": "Search organizations",
+  "search.filters.filter.personOrgUnits.label": "Search Unidad Académica",
 
   // "search.filters.filter.personOrgUnits.placeholder" : "Organizations",
   // TODO New key - Add a translation
-  "search.filters.filter.personOrgUnits.placeholder": "Organizations",
+  "search.filters.filter.personOrgUnits.placeholder": "Unidad Académica",
 
   // "search.filters.filter.namedresourcetype.head": "Status",
   "search.filters.filter.namedresourcetype.head": "Estado do depósito",
@@ -8719,7 +8719,7 @@
 
   // "orgunit.search.results.head": "Organizations Search Results",
   // TODO New key - Add a translation
-  "orgunit.search.results.head": "Organizations Search Results",
+  "orgunit.search.results.head": "Unidad Académica Search Results",
 
   // "search.results.no-results": "Your search returned no results. Having trouble finding what you're looking for? Try putting",
   "search.results.no-results": "Sua pesquisa não retornou resultados. Tem dificuldade em encontrar o que procura? Tente incluir ",

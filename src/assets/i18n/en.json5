@@ -1015,9 +1015,9 @@
 
   "browse.metadata.pjtitle": "Title",
 
-  "browse.metadata.rodept": "Department",
+  "browse.metadata.rodept": "Unidad Académica",
 
-  "browse.metadata.rpdept": "Department",
+  "browse.metadata.rpdept": "Unidad Académica",
 
   "browse.metadata.rpname": "Name",
 
@@ -2283,9 +2283,9 @@
 
   "explore.index.projectinvestigators": "Project investigators",
 
-  "explore.index.rodept": "Department",
+  "explore.index.rodept": "Unidad Académica",
 
-  "explore.index.rpdept": "Department",
+  "explore.index.rpdept": "Unidad Académica",
 
   "explore.index.rpname": "Name",
 

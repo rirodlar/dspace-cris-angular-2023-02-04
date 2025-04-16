@@ -1552,11 +1552,11 @@
 
   // "browse.metadata.rodept": "Department",
   // TODO New key - Add a translation
-  "browse.metadata.rodept": "Department",
+  "browse.metadata.rodept": "Unidad Académica",
 
   // "browse.metadata.rpdept": "Department",
   // TODO New key - Add a translation
-  "browse.metadata.rpdept": "Department",
+  "browse.metadata.rpdept": "Unidad Académica",
 
   // "browse.metadata.rpname": "Name",
   // TODO New key - Add a translation
@@ -3577,11 +3577,11 @@
 
   // "explore.index.rodept" : "Department",
   // TODO New key - Add a translation
-  "explore.index.rodept": "Department",
+  "explore.index.rodept": "Unidad Académica",
 
   // "explore.index.rpdept" : "Department",
   // TODO New key - Add a translation
-  "explore.index.rpdept": "Department",
+  "explore.index.rpdept": "Unidad Académica",
 
   // "explore.index.rpname" : "Name",
   // TODO New key - Add a translation

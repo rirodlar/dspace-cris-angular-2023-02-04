@@ -8,7 +8,7 @@
   >
     <h4 class="d-inline-block text-left mt-auto mb-auto" style="color: #14A499; font-weight: 900">
       {{'search.filters.filter.' + filter.name + '.head'| translate}}
-    </h4>{{filter.name}}
+    </h4>
     <span class="filter-toggle flex-grow-1 fas p-auto"
           [ngClass]="(collapsed$ | async) ? 'fa-plus' : 'fa-minus'"
           [title]="((collapsed$ | async) ? 'search.filters.filter.expand' : 'search.filters.filter.collapse') | translate">
