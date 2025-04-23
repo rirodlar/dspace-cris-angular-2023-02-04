@@ -11790,5 +11790,8 @@
 
   "external-login-page.confirm-email.create-account.notifications.error.no-netId": "Something went wrong with this email account. Try again or use a different method to login.",
 
-  "external-login.provide-email.button.label": "Enviar enlace de verificación"
+  "external-login.provide-email.button.label": "Enviar enlace de verificación",
+
+  "external-login.noEmail.informationText": "La información recibida desde {{authMethod}} no es suficiente para completar el proceso de inicio de sesión. Por favor, proporciona la información faltante a continuación o inicia sesión mediante un método diferente para asociar tu {{authMethod}} a una cuenta existente."
+
 }
