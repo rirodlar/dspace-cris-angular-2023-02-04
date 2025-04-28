@@ -11744,7 +11744,6 @@
 
   "external-login.confirmation.header": "Información necesaria para completar el proceso de inicio de sesión.",
 
-  "external-login.noEmail.informationText": "La información recibida desde {{authMethod}} no es suficiente para completar el proceso de inicio de sesión. Por favor, proporciona la información faltante a continuación o inicia sesión mediante otro método para asociar tu cuenta de {{authMethod}} a una cuenta existente.",
 
   "external-login.haveEmail.informationText": "It seems that you have not yet an account in this system. If this is the case, please confirm the data received from {{authMethod}} and a new account will be created for you. Otherwise, if you already have an account in the system, please update the email address to match the one already in use in the system or login via a different method to associate your {{authMethod}} to your existing account.",
 
