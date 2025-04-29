@@ -183,7 +183,7 @@ submission:
         name: dc.type
 
 #  Default Language in which the UI will be rendered if the user's browser language is not an active language
-defaultLanguage: en
+defaultLanguage: es
 
 # Languages. DSpace Angular holds a message catalog for each of the following languages.
 # When set to active, users will be able to switch to the use of this language in the user interface.
@@ -191,81 +191,14 @@ languages:
   - code: en
     label: English
     active: true
-  - code: ca
-    label: Català
-    active: true
-  - code: cs
-    label: Čeština
-    active: true
-  - code: de
-    label: Deutsch
-    active: true
   - code: es
     label: Español
     active: true
-  - code: fr
-    label: Français
-    active: true
-  - code: gd
-    label: Gàidhlig
-    active: true
-  - code: it
-    label: Italiano
-    active: true
-  - code: it
-    label: Italiano
-    active: true
-  - code: lv
-    label: Latviešu
-    active: true
-  - code: hu
-    label: Magyar
-    active: true
-  - code: nl
-    label: Nederlands
-    active: true
-  - code: pl
-    label: Polski
-    active: true
-  - code: pt-PT
-    label: Português
-    active: true
-  - code: pt-BR
-    label: Português do Brasil
-    active: true
-  - code: sr-lat
-    label: Srpski (lat)
-    active: true
-  - code: fi
-    label: Suomi
-    active: true
-  - code: sv
-    label: Svenska
-    active: true
-  - code: tr
-    label: Türkçe
-    active: true
-  - code: vi
-    label: Tiếng Việt
-    active: true
-  - code: kk
-    label: Қазақ
-    active: true
-  - code: bn
-    label: বাংলা
-    active: true
-  - code: hi
-    label: हिंदी
-    active: true
-  - code: el
-    label: Ελληνικά
-    active: true
-  - code: sr-cyr
-    label: Српски
-    active: true
-  - code: uk
-    label: Yкраї́нська
-    active: true
+
+
+
+
+
 
 
 # Browse-By Pages
