@@ -1,5 +1,6 @@
 rest:
-  ssl: false
-  host: 158.170.66.169
-  port: 8080
+  ssl: true
+  host: sic.vriic.usach.cl
+  port: 443
   nameSpace: /server
+  ssrBaseUrl: http://187.33.149.132:8080/server
