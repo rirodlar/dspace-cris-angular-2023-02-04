@@ -11738,7 +11738,7 @@
   // "access-control-option-end-date-note": "Select the date until which the related access condition is applied",
   "access-control-option-end-date-note": "Escoja la fecha hasta la cuál se aplicarán las condiciones de acceso especificadas",
 
-  "external-login.form.email": "Enter the email",
+  "external-login.form.email": "Ingresa el correo electrónico",
 
   "external-login.form.or-divider": "or",
 
@@ -11749,7 +11749,7 @@
 
   "external-login.confirm-email.header": "Confirm or update email",
 
-  "external-login.confirmation.email-required": "Email is required.",
+  "external-login.confirmation.email-required": "El correo electrónico es obligatorio.",
 
   "external-login.confirmation.email-invalid": "Invalid email format.",
 
