@@ -20,7 +20,7 @@
           <table class="table  table-striped">
             <tbody>
             <ng-container *ngFor="let mdEntry of (metadata$ | async) | keyvalue">
-              <ng-container *ngIf="mdEntry.key !== 'dc.identifier.uri'">
+
               <tr *ngFor="let mdValue of mdEntry.value | slice:0:(metadataMapLimit$ | async).get(mdEntry.key)">
                <td>{{mdEntry.key}}</td>
                <td *ngIf="isUrl(mdValue)">
@@ -38,7 +38,7 @@
                   </button>
                 </td>
               </tr>
-            </ng-container>
+
             </ng-container>
             </tbody>
           </table>
