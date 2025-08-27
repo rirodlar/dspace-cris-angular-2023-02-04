@@ -78,6 +78,22 @@ export class ComcolPageBrowseByComponent implements OnInit {
     this.currentOptionId$ = this.route.params.pipe(
       map((params: Params) => params.id)
     );
+
+    this.allOptions$ = this.allOptions$.pipe(
+      map(options =>
+        options
+          // 1) reemplaza el browse 'type' por 'rights'
+          .map(o => ({
+            ...o,
+            id: o.id === 'type' ? 'rights' : o.id,
+            routerLink: o?.routerLink?.replace('/browse/type', '/browse/rights'),
+            // si tu label es una key i18n, cambia la key; si ya viene traducido, puedes dejarlo tal cual
+            label: o.id === 'type' ? 'explore.index.rights' : o.label,
+          }))
+          // 2) opcional: oculta browses jerárquicos de tipo
+          .filter(o => !['patent-coar-types', 'product-coar-types', 'type'].includes(o.id))
+      )
+    );
   }
 
   onSelectChange(newId: string) {
