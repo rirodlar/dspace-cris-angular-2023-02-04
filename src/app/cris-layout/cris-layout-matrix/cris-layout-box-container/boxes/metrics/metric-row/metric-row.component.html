@@ -1,7 +1,11 @@
-<ng-container *ngFor="let metric of metricRow.metrics">
-  <ng-container *ngIf="metric">
-     <ds-metric-loader [metric]="metric"
-                       [class.d-none]="(isHidden(metric.id) | async)"
-                       (hide)="toggleVisibility(metric.id, $event)"></ds-metric-loader>
+<div class="d-flex justify-content-center flex-wrap">
+  <ng-container *ngFor="let metric of metricRow.metrics">
+    <!-- Se quita el icono de download
+    <ng-container *ngIf="metric && metric.id !== 'c0342470-fb68-4b5b-a45f-3094d198023c:embedded-download'">
+      <ds-metric-loader [metric]="metric"
+                        [class.d-none]="(isHidden(metric.id) | async)"
+                        (hide)="toggleVisibility(metric.id, $event)"
+                        class="m-3"></ds-metric-loader>
+    </ng-container>
   </ng-container>
-</ng-container>
+</div>
