@@ -1,6 +1,6 @@
 <div class="d-flex justify-content-center flex-wrap">
   <ng-container *ngFor="let metric of metricRow.metrics">
-    <!-- Se quita el icono de download
+    <!-- Se quita el icono de download-->
     <ng-container *ngIf="metric && metric.id !== 'c0342470-fb68-4b5b-a45f-3094d198023c:embedded-download'">
       <ds-metric-loader [metric]="metric"
                         [class.d-none]="(isHidden(metric.id) | async)"
