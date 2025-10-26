@@ -1,5 +1,5 @@
 <div class="row">
-  <div *ngIf="showThumbnails" class="col-3 col-xl-2 pr-sm-0">
+  <div *ngIf="false" class="col-3 col-xl-2 pr-sm-0">
     <a *ngIf="linkType != linkTypes.None" [target]="(linkType == linkTypes.ExternalLink) ? '_blank' : '_self'"
        [attr.rel]="(linkType == linkTypes.ExternalLink) ? 'noopener noreferrer' : null"
        [routerLink]="[itemPageRoute]" class="dont-break-out">
@@ -17,7 +17,7 @@
       </ds-thumbnail>
     </span>
   </div>
-  <div [ngClass]="showThumbnails ? 'col-9 col-xl-10' : 'col-md-12'">
+  <div [ngClass]="false ? 'col-9 col-xl-10' : 'col-md-12'">
     <ds-truncatable [id]="dso.id">
       <ds-themed-badges *ngIf="showLabel" [object]="dso" [context]="context"></ds-themed-badges>
       <a *ngIf="linkType != linkTypes.None" [target]="(linkType == linkTypes.ExternalLink) ? '_blank' : '_self'"
