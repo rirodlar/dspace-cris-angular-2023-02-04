@@ -34,7 +34,7 @@
               <i class="fa-solid fa-file-circle-exclamation fa-lg text-warning"></i>
             </div>
           </div>
-
+       <div class ="item-container">
           <ds-listable-object-component-loader [object]="object"
                                                [viewMode]="viewMode"
                                                [index]="i"
@@ -47,6 +47,7 @@
                                                (contentChange)="contentChange.emit()"
                                                (customEvent)="customEvent.emit($event)"
                                                (contentChange)="contentChange.emit($event)"></ds-listable-object-component-loader>
+       </div>
         </li>
     </ul>
 </ds-pagination>
