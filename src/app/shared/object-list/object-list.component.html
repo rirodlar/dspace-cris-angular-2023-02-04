@@ -18,7 +18,7 @@
 
 
   <ul *ngIf="objects?.hasSucceeded" class="list-unstyled" [ngClass]="{'ml-4': selectable}">
-        <li *ngFor="let object of objects?.payload?.page; let i = index; let last = last" class="mt-4 mb-4 d-flex" [class.border-bottom]="hasBorder && !last" [attr.data-test]="'list-object' | dsBrowserOnly" style="background-color: white;padding: 15px;">
+        <li *ngFor="let object of objects?.payload?.page; let i = index; let last = last" class="mt-4 mb-4 d-flex" [class.border-bottom]="hasBorder && !last" [attr.data-test]="'list-object' | dsBrowserOnly" style="background-color: white;padding-left: 15px; padding-right: 15px;padding-bottom: 5px; padding-top: 5px;">
           <ds-selectable-list-item-control *ngIf="selectable" [index]="i"
                                            [object]="object"
                                            [selectionConfig]="selectionConfig"

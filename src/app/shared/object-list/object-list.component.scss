@@ -1,26 +1,27 @@
 ds-selectable-list-item-control {
-  z-index: 1
+  z-index: 1;
 }
 
 
 .item-container {
   display: flex;
-  flex-flow: row wrap;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   background: #f9f9f9;
   padding: 1em;
-  //margin-bottom: 1em;
-  margin-left: 1em;
-  margin-right: 1em;
+  margin: 0 auto; /* centrado y margen inferior */
+  width: 100%; /* ocupa todo el ancho disponible */
+  max-width: 100%; /* asegura que no se limite */
+  box-sizing: border-box; /* incluye padding y border en el cálculo del ancho */
   border-radius: .3em;
   box-shadow: rgba(0, 0, 0, 0.2) 3px 6px 10px;
-  border: solid 1px #ccc;
+  border: 1px solid #ccc;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .item-container:hover {
-  background-color: #e6f0ff; /* tono azul claro de resaltado */
-  box-shadow: rgba(0, 0, 0, 0.3) 3px 8px 12px; /* leve aumento de sombra */
-  cursor: pointer; /* cambia el cursor para dar sensación interactiva */
+  background-color: #e6f0ff;
+  box-shadow: rgba(0, 0, 0, 0.3) 3px 8px 12px;
+  cursor: pointer;
 }
