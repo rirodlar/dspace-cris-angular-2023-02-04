@@ -3387,7 +3387,7 @@
 
   // "explore.index.metric.view" : "Most viewed",
   // TODO New key - Add a translation
-  "explore.index.metric.view": "Most viewed",
+  "explore.index.metric.view": "Más vistos",
 
   // "explore.index.metric.download" : "Most downloaded",
   // TODO New key - Add a translation
@@ -3416,7 +3416,7 @@
 
   // "explore.index.dc.date.accessioned" : "Recent Additions",
   // TODO New key - Add a translation
-  "explore.index.dc.date.accessioned": "Recent Additions",
+  "explore.index.dc.date.accessioned": "Publicaciones recientes",
 
   // "explore.index.dc.title" : "Title",
   // TODO New key - Add a translation
@@ -8951,7 +8951,7 @@
 
   // "statistics.table.mainReports.title.TopItems": "Most viewed",
   // TODO New key - Add a translation
-  "statistics.table.mainReports.title.TopItems": "Most viewed",
+  "statistics.table.mainReports.title.TopItems": "Más vistos",
 
   // "statistics.table.mainReports.title.TotalVisitsPerMonth": "Total visits per month",
   // TODO New key - Add a translation
@@ -9066,7 +9066,7 @@
 
   // "statistics.table.publicationsReports.title.TopItems": "Most viewed",
   // TODO New key - Add a translation
-  "statistics.table.publicationsReports.title.TopItems": "Most viewed",
+  "statistics.table.publicationsReports.title.TopItems": "Más vistos",
 
   // "statistics.table.publicationsReports.title.TopCities": "Top cities",
   // TODO New key - Add a translation
@@ -9094,7 +9094,7 @@
 
   // "statistics.table.projectsReports.title.TopItems": "Most viewed",
   // TODO New key - Add a translation
-  "statistics.table.projectsReports.title.TopItems": "Most viewed",
+  "statistics.table.projectsReports.title.TopItems": "Más vistos",
 
   // "statistics.table.projectsReports.title.TotalVisitsPerMonth": "Total visits per month",
   // TODO New key - Add a translation
@@ -9122,7 +9122,7 @@
 
   // "statistics.table.rppublicationsReports.title.TopItems": "Most viewed",
   // TODO New key - Add a translation
-  "statistics.table.rppublicationsReports.title.TopItems": "Most viewed",
+  "statistics.table.rppublicationsReports.title.TopItems": "Más vistos",
 
   // "statistics.table.rppublicationsReports.title.TopCities": "Top cities",
   // TODO New key - Add a translation
@@ -9150,7 +9150,7 @@
 
   // "statistics.table.rpprojectsReports.title.TopItems": "Most viewed",
   // TODO New key - Add a translation
-  "statistics.table.rpprojectsReports.title.TopItems": "Most viewed",
+  "statistics.table.rpprojectsReports.title.TopItems": "Más vistos",
 
   // "statistics.table.rpprojectsReports.title.TopCities": "Top cities",
   // TODO New key - Add a translation
@@ -9238,7 +9238,7 @@
 
   // "statistics.table.itemReports.title.TopItems" : "Most viewed",
   // TODO New key - Add a translation
-  "statistics.table.itemReports.title.TopItems": "Most viewed",
+  "statistics.table.itemReports.title.TopItems": "Más vistos",
 
   // "statistics.table.itemReports.title.TopCategories" : "Top categories",
   // TODO New key - Add a translation
