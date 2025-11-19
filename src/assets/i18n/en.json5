@@ -2188,7 +2188,7 @@
 
   "explore.index.birthDate": "Birthday",
 
-  "explore.index.metric.view": "Most viewed",
+  "explore.index.metric.view": "Más vistos",
 
   "explore.index.metric.download": "Most downloaded",
 
@@ -2203,7 +2203,7 @@
 
   "explore.index.dateissued": "Date issued",
 
-  "explore.index.dc.date.accessioned": "Recent Additions",
+  "explore.index.dc.date.accessioned": "Publicaciones recientes",
 
   "explore.index.dc.title": "Title",
 
@@ -5539,7 +5539,7 @@
 
   "statistics.table.mainReports.title.TotalVisits": "Total visits",
 
-  "statistics.table.mainReports.title.TopItems": "Most viewed",
+  "statistics.table.mainReports.title.TopItems": "Más vistos",
 
   "statistics.table.mainReports.title.TotalVisitsPerMonth": "Total visits per month",
 
@@ -5611,7 +5611,7 @@
 
   "statistics.table.publicationsReports.title.TotalVisits": "Total visits",
 
-  "statistics.table.publicationsReports.title.TopItems": "Most viewed",
+  "statistics.table.publicationsReports.title.TopItems":"Más vistos",
 
   "statistics.table.publicationsReports.title.TopCities": "Top cities",
 
@@ -5627,7 +5627,7 @@
 
   "statistics.table.projectsReports.title.TotalVisits": "Total visits",
 
-  "statistics.table.projectsReports.title.TopItems": "Most viewed",
+  "statistics.table.projectsReports.title.TopItems": "Más vistos",
 
   "statistics.table.projectsReports.title.TotalVisitsPerMonth": "Total visits per month",
 
@@ -5641,7 +5641,7 @@
 
   "statistics.table.rppublicationsReports.title.TotalVisits": "Total visits",
 
-  "statistics.table.rppublicationsReports.title.TopItems": "Most viewed",
+  "statistics.table.rppublicationsReports.title.TopItems": "Más vistos",
 
   "statistics.table.rppublicationsReports.title.TopCities": "Top cities",
 
@@ -5655,7 +5655,7 @@
 
   "statistics.table.rpprojectsReports.title.TotalVisits": "Total visits",
 
-  "statistics.table.rpprojectsReports.title.TopItems": "Most viewed",
+  "statistics.table.rpprojectsReports.title.TopItems": "Más vistos",
 
   "statistics.table.rpprojectsReports.title.TopCities": "Top cities",
 
@@ -5699,7 +5699,7 @@
 
   "statistics.table.itemReports.title.TopCities": "Top cities views",
 
-  "statistics.table.itemReports.title.TopItems": "Most viewed",
+  "statistics.table.itemReports.title.TopItems": "Más vistos",
 
   "statistics.table.itemReports.title.TopCategories": "Top categories",
 
